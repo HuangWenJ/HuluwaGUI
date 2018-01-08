@@ -54,14 +54,14 @@ public class Field extends JPanel {
         h=640;
    
         for(int i=0;i<7;i++){
-        	players.add(new Player("ºùÂ«ÍÞ"+(i+1),0,i*OFFSET, this,"huluwa"+(i+1)+".png",0,15));
+        	players.add(new Player("ºùÂ«ÍÞ"+(i+1),0,i*OFFSET, this,"huluwa"+(i+1)+".png",0,23-i));
         }
-        Player grandpa=new Player("ÀÏÒ¯Ò¯",0,7*OFFSET,this,"grandpa.png",0,15);
+        Player grandpa=new Player("ÀÏÒ¯Ò¯",0,7*OFFSET,this,"grandpa.png",0,12);
         players.add(grandpa);
-        Player shejing=new Player("Éß¾«",11*OFFSET,3*OFFSET,this,"shejing.png",1,15);
+        Player shejing=new Player("Éß¾«",11*OFFSET,3*OFFSET,this,"shejing.png",1,18);
         shejing.setDirLeft();
         players.add(shejing);
-        Player xiezijing=new Player("Ð«×Ó¾«",11*OFFSET,4*OFFSET,this,"xiezijing.png",1,15);
+        Player xiezijing=new Player("Ð«×Ó¾«",11*OFFSET,4*OFFSET,this,"xiezijing.png",1,19);
         xiezijing.setDirLeft();
         players.add(xiezijing);
         for(int i=0;i<6;i++){
