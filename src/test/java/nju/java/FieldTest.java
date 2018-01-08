@@ -21,8 +21,8 @@ public class FieldTest {
 	public void testAvailable() {
 		Field field=new Field(null);
 		Player player1,player2;
-		player1=new Player("player1",0,0, field,"player.png",0,15);		
-		player2=new Player("player2",0,160, field,"player.png",0,15);
+		player1=new Player("player1",0,0, field,"huluwa1.png",0,15);		
+		player2=new Player("player2",0,160, field,"huluwa2.png",0,15);
 		new Thread(new TestTask(player1)).start();
 		new Thread(new TestTask(player2)).start();
 		try{
