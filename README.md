@@ -77,14 +77,24 @@
 
 运行程序后进入初始界面，葫芦娃按一字长蛇阵排列，蛇精队按照鹤翼阵排列
 ![init](https://wx4.sinaimg.cn/mw690/006VQp4jgy1fnjdt1s03fj30xf0iv1kx.jpg)
+
+
 然后在按下空格键，葫芦娃队和蛇精队的成员开始向敌方前进，相遇之后会进入战斗状态
 ![fight](https://wx2.sinaimg.cn/mw690/006VQp4jgy1fnjdt1rs81j30xf0iv7w6.jpg)
+
+
 战斗结束后，战斗的双方根据概率随机选择一方死亡，一方胜利，死亡的一方变成墓碑，胜利的一方会回复平常状态，胜利者会搜寻战场上剩下的敌人，向他们前进。最后战场上只剩下某一方的阵营时，战斗结束，所有存活的单位停止行动，左上角出现Completed字样
 ![completed](https://wx2.sinaimg.cn/mw690/006VQp4jgy1fnjdt1ltlzj30xf0iv1kd.jpg)
+
+
 战斗结束后，可以按下“S”键来保存战斗记录，会弹出一个提示框提示输入保存的文件名
 ![save](https://wx1.sinaimg.cn/mw690/006VQp4jgy1fnjdt1kf19j30xf0ivkho.jpg)
+
+
 然后可以按“R”键恢复初始状态,在战斗开始或者战斗结束后，都可以按下“L”键来回放战斗记录，按下后会弹出文件选择框来选择文件，选择完文件后回放开始。
 ![load](https://wx2.sinaimg.cn/mw690/006VQp4jgy1fnjdt17286j30xf0iv7rj.jpg)
+
+
 
 ## 测试代码
 
